@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+bash frontend/scripts/precommit.sh
+bash backend/scripts/precommit.sh
