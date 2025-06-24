@@ -10,6 +10,8 @@ exclude = '''
   | env
   | build
   | dist
+  | /venv/        |   # virtual-env
+  | /node_modules/
 )/
 '''
 

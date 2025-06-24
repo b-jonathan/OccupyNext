@@ -8,4 +8,4 @@ if [ -f venv/scripts/activate ]; then
   . venv/scripts/activate
 fi
 
-isort . && black . && flake8
+isort . && black . && flake8 .

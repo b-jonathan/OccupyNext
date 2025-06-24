@@ -1,0 +1,13 @@
+[flake8]
+# Black uses 88 chars, match it here
+max-line-length = 88
+
+# Ignore Black’s E203 whitespace rule
+extend-ignore = E203
+
+# Don’t even look inside these dirs
+extend-exclude =
+    venv,
+    */venv/*,
+    frontend/node_modules/*,
+    __pycache__
