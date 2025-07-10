@@ -2,9 +2,9 @@ import asyncio
 import os
 
 from dotenv import load_dotenv
+from playwright.async_api import Page
 from playwright.async_api import TimeoutError as PlaywrightTimeout
 from playwright.async_api import async_playwright
-from playwright.async_api import Page
 
 load_dotenv()
 
